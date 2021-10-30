@@ -86,7 +86,7 @@ run().catch(console.dir);
 
 console.log(uri);
 app.get('/', (req, res) => {
-  res.send('running');
+  res.send('Hello Heroku');
 });
 
 app.listen(port, () => {
